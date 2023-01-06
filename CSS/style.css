@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+@font-face {
+	font-family: 'HarryPotter';
+	src: url('./HARRYP__.TTF');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+body {
+	background: #432fc3;
+	min-height: 100vh;
+}
+
+.active {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	border-radius: 20px;
+}
+
+.design {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	padding: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.design img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	pointer-events: none;
+}
+
+.design .white {
+	mix-blend-mode: screen;
+}
+
+.design img#front {
+	z-index: 1;
+	padding-top: 5em;
+}
+
+#text {
+	position: absolute;
+	right: 10px;
+	color: rgb(255, 255, 255);
+	white-space: normal;
+	font-weight: bolder;
+	font-size: 5vw;
+	z-index: 8;
+}
+
+.btn {
+	font-family: 'HarryPotter', sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	border-radius: 40px;
+	color: #ffffff;
+	font-size: 15em;
+	padding: 5px 30px;
+	display: inline-block;
+	z-index: 10;
+}
+
+.flexing {
+	padding-top: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	z-index: 10;
+	color: #ffffff;
+}
+
+.flexingInside {
+	max-width: 40vw;
+	font-size: 1.1vw;
+	text-align: center;
+}
+
+.threejs {
+	width: 600px;
+	height: 400px;
+}
+
+
+
+
+
+
+
+
+.loadingtext
+{
+    position: absolute;
+    top: 70%;
+    left : 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    padding: 10px;
+    border-radius: 4px;
+    background: #13142a77;
+    color: white;
+    line-height:1.3em;
+    font-family: helvetica, arial, sans-ser;
+    font-weight: 100;
+    font-size:14px;
+    text-align:center;
+    justify-content: center;
+    opacity: 1;
+
+}
+
+.loading-bar
+{
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    width: 78%;
+    height: 2px;
+    background: #13142a;
+    transform: scaleX(0.2);
+    transform-origin: top left;
+    transition: transform 0.5s;
+}
+
+.loading-bar.ended
+{
+    transform: scaleX(0);
+    transform-origin: 100% 0;
+    transition: transform 1.5s ease-in-out;
+}
+
+
+.webgl
+{
+    position: inherit;
+    outline: none;
+    border-radius: 1%;
+    /* display: none; */
+}
+.background-spacing
+{
+    margin-top: 10rem;
+	background-color: lightblue;
+	color: #13142a;
+	color: lightblue;
+}
+.hero-header
+{
+
+    background: #13142a;
+    display: flex;
+    /* padding: 1.5em; */
+    align-items: center;
+    justify-content: center;
+}
+.leftcomponent
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    background-color: #13142a;
+}
+.rightcomponent
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    padding: 10px;
+}
+
+.heading-text
+{
+    font-size: 7.1vw;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 1.2;
+    font-family: 'HarryPotter',sans-serif;
+}
+.headingParagraph
+{
+    font-size: 1vw;
+    font-weight: 200;
+    color: #f0e7ff;
+    text-align: center;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .hero-header
+    {
+        display: grid;
+    }
+    .rightcomponent
+    {
+       width:100vw;
+    }
+    .leftcomponent
+    {
+       width:100vw;
+    }
+
+  
+}
+
+@media screen and (max-width: 1437px) 
+{
+ .heading-text
+ {
+    margin-top: 1rem;
+    font-size: 4rem;
+  }
+  .headingParagraph
+  {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;;
+  }
+
+ }
+
+
+@media only screen and (max-width: 1300px) {
+	.design img {
+		height: 100%;
+	}
+    .threejs
+    {
+        height:300px;
+        width:400px 
+    }
+}
+
+@media only screen and (max-width: 800px) {
+	.flexingInside {
+		max-width: 40vw;
+		font-size: 0.8rem;
+		text-align: center;
+	}
+
+
+
+}
+
+@media only screen and (max-width: 570px) {
+	.btn {
+		font-size: 40vw;
+	}
+    .threejs
+    {
+        display: none;
+        height:220px;
+        width:300px 
+    }
+}

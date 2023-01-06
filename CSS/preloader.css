@@ -1,0 +1,18 @@
+html
+{
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+.preloader
+{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    z-index: 1000;
+}

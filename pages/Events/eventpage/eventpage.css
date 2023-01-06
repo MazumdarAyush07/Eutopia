@@ -1,0 +1,263 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgb(234, 234, 234);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #020e2f;
+}
+.heading h2 {
+  color: #fff;
+}
+.nav li {
+  list-style-type: none;
+}
+
+.container-card {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px 50px;
+  background: #fff;
+
+  /* glassmorphism */
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.156);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.nav {
+  width: 40%;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+.nav a {
+  text-decoration: none;
+  color: rgb(243, 243, 243);
+  cursor: pointer;
+}
+
+.event-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+  animation: fadeIn 1s ease;
+}
+.event-box .img {
+  width: 32%;
+}
+.event-box .img img {
+  width: 100%;
+  height: 390px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.event-box .intro {
+  width: 70%;
+  padding: 0px 30px;
+  margin-top: -30px;
+}
+.register {
+  margin-top: 20px;
+}
+.register a {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(37, 37, 37, 0.853);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.register a:hover {
+  background: #fff;
+  color: #000;
+}
+
+.rules {
+  animation: fadeIn 1s ease;
+}
+.judges {
+  animation: fadeIn 1s ease;
+}
+.cood {
+  animation: fadeIn 1s ease;
+}
+
+/* animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* media queries */
+@media (max-width: 768px) {
+  .nav {
+    width: 100%;
+    font-size: 13px;
+  }
+  .container-card {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+
+    /* glassmorphism */
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.156);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  .event-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .event-box .img {
+    width: 90%;
+  }
+  .event-box .img img {
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .event-box .intro {
+    width: 90%;
+    padding: 0px 30px;
+    margin-top: 0px;
+  }
+}
+#event-detail {
+  display: block;
+}
+#rules {
+  display: none;
+}
+#judges {
+  display: none;
+}
+#cood {
+  display: none;
+}
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+body {
+  background-color: #8669a8;
+  overflow-y: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-size: 40px;
+}
+
+.team-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+  .team-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.card-section {
+  padding: 80px 30px;
+}
+
+.member-card {
+  height: 350px;
+  width: 280px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.156);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-content h3{
+  margin-top: 10px;
+}
+
+.team-content{
+  margin-bottom: 10px;
+}
+
+.member-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.member-links a {
+  padding: 10px;
+}
+
+.mem-img{
+  border-radius: 50%;
+}
+
+.mem-img img{
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+}
