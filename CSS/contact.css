@@ -202,7 +202,7 @@ inputBox ::placeholder
 {
 
     .contactus{
-        padding: 20px;
+        padding: 5vh;
     }
     .box{
         grid-template-columns: 1fr;
@@ -236,5 +236,6 @@ inputBox ::placeholder
         font-family: 'HarryPotter';
         color: #fff;
         font-size: 3rem;
+        padding: 3vh;
     }
 }
