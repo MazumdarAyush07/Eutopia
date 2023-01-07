@@ -1,5 +1,5 @@
 body {
-  background-color: #8669a8;
+  background-color: #061861;
   overflow-y: auto;
 }
 
@@ -8,6 +8,12 @@ body {
   justify-content: center;
   margin-top: 25px;
   font-size: 40px;
+  color: #ffffff;
+}
+
+.text
+{
+  color:#ffffff; 
 }
 
 .team-section {
