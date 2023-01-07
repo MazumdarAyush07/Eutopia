@@ -192,5 +192,7 @@
     grid-template-columns: auto;
     row-gap: 25px;
     column-gap: 30px;
+    padding-left: 2vh;
+    padding-right: 2vh;
   }
 }
