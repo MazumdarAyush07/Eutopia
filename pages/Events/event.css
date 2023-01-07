@@ -170,6 +170,7 @@
 } */
 
 .main-div {
+  padding-top: 25vh;
   display: grid;
   grid-template-columns: auto auto;
   row-gap: 25px;
