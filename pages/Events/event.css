@@ -172,6 +172,7 @@
 .main-div {
   padding-top: 12vh;
   padding-left: 3vh;
+  padding-right: 3vh;
   display: grid;
   grid-template-columns: auto auto;
   row-gap: 25px;
@@ -183,7 +184,9 @@
   .grid-container {
     grid-template-columns: auto;
   }
-
+  .event-card{
+    width: 15vh;
+  }
   .main-div {
     display: grid;
     grid-template-columns: auto;
