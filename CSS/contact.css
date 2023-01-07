@@ -47,6 +47,7 @@
     /* background: #fff; */
     filter: invert(1);
     box-shadow: 0px 5px 35px rgba(0,0,0,0,15);
+    border-radius: 0.5rem;
 }
 
 .box{
@@ -101,6 +102,7 @@
     font-size: 1.1em;
     outline: none;
     border: 1px solid #333;
+    border-radius: 0.4rem;
 }
 
 .inputBox textarea{
@@ -111,6 +113,7 @@
     resize: none;
     min-height: 220px;
     margin-bottom: 10px;
+    border-radius: 0.4rem;
 }
 
 .inputBox input[type="submit"]
