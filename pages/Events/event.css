@@ -3,6 +3,9 @@
 	padding: 0;
 	scroll-behavior: smooth;
 }
+/* body{
+  color:#142E99;
+} */
 .backgrnd {
   padding-top: 20px;
   max-height: 100%;
