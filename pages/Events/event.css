@@ -170,12 +170,13 @@
 } */
 
 .main-div {
-  padding-top: 25vh;
+  padding-top: 12vh;
   display: grid;
   grid-template-columns: auto auto;
   row-gap: 25px;
   column-gap: 30px;
   background-color: #142E99;
+  padding-bottom: 5vh;
 }
 @media screen and (max-width: 425px) {
   .grid-container {
