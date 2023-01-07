@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+@font-face {
+	font-family: 'HarryPotter';
+	src: url('../../CSS/HARRYP__.TTF');
+}
 body {
   background-color: #221866;
   overflow-y: auto;
@@ -7,13 +13,16 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 25px;
-  font-size: 40px;
+  font-family: 'HarryPotter', sans-serif;
+  font-size: 65px;
   color: #ffffff;
 }
 
 .text
 {
-  color:#ffffff; 
+  font-family: 'HarryPotter', sans-serif;
+  color:#ffffff;
+  font-size: 30px; 
 }
 
 .team-section {
@@ -55,6 +64,7 @@ body {
 
 .team-content h3{
   margin-top: 10px;
+  text-align: center;
 }
 
 .member-links {
