@@ -180,7 +180,7 @@
   background-color: #142E99;
   padding-bottom: 5vh;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   .grid-container {
     grid-template-columns: auto;
   }
