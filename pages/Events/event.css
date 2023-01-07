@@ -142,7 +142,7 @@
   display: inline-block;
   font-size: 16px;
   z-index: 3;
-  border-radius: 20% 20% 20% 20%;
+  border-radius: 0.4rem;
   }
 
 .container {
