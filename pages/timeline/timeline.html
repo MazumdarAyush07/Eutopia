@@ -6,12 +6,52 @@
   <script>document.getElementsByTagName("html")[0].className += " js";</script>
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="./timeline.css">
+  <link rel="stylesheet" href="../../CSS/nav.css">
   <title>Vertical Timeline</title>
 </head>
 <body>
-	<header class="cd-main-header text-center flex flex-column flex-center event_heading"> 
+  <div class="head pt-2">
+    <nav class="navbar">
+
+      <a href="" class="nav-logo">
+        <img class="logo" src="../../images/logo2.webp" alt="E" width="170" height="90">
+      </a>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="../../index.html" class="nav-link">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a href="../../pages/Events/event.html" class="nav-link">Events</a>
+        </li>
+        <li class="nav-item">
+          <a href="../../pages/timeline/timeline.html" class="nav-link">Timelines</a>
+        </li>
+        <li class="nav-item">
+          <a href="../../pages/teams/team.html" class="nav-link">Team</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Sponsors</a>
+        </li>
+        <li class=" nav-item">
+          <a href="#" class="nav-link">Speakers</a>
+        </li>
+
+        <div class="px-12">
+          <!-- <button
+            class="flex mx-auto text-black bg-white border-0 py-2 px-4 focus:outline-none hover:bg-indigo-500 rounded text-lg hover:text-white">Sign
+            In</button> -->
+        </div>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+</div>
+	<div class="cd-main-header text-center flex flex-column flex-center event_heading"> 
     <h1>Event Timeline</h1>
-  </header>
+  </div>
 
   <section class="cd-timeline js-cd-timeline timeline_body" >
     <div class="container max-width-lg cd-timeline__container timeline">
@@ -352,4 +392,6 @@
   </section> <!-- cd-timeline -->
   <script src="assets/js/main.js"></script>
 </body>
+
+<Script src="../../JS/nav.js"></Script>
 </html>

@@ -16,6 +16,11 @@ body {
   font-family: 'HarryPotter', sans-serif;
   font-size: 65px;
   color: #ffffff;
+  padding-top: 10vh;
+}
+
+.head {
+  padding-top: 10vh;
 }
 
 .text
