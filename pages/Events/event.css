@@ -92,9 +92,9 @@
   position: relative;
   width: 200px;
   height: 250px;
-  margin-left: 0px;
   padding: 0,0,0,0;
   z-index: 2;
+  border-radius: 0.2rem;
 }
 
 
@@ -206,7 +206,7 @@
 } */
 
 .main-div {
-  padding-top: 12vh;
+  padding-top: 20vh;
   padding-left: 3vh;
   padding-right: 3vh;
   display: grid;
