@@ -1,11 +1,21 @@
+@font-face {
+	font-family: 'HarryPotter';
+	src: url('../../CSS/HARRYP__.TTF');
+}
+
 .timeline_body
 {
-    background-color: #223998;
+    background-color: #260051;
 }
 .card
 {
     background-color: aqua;
 }
 .event_heading{
-    background-color: #3757d5;
+    background-color: #432fc2;
+}
+.headingMain{
+    font-family: 'HarryPotter';
+    font-size: 60px;
+    padding-top: 40px;
 }
