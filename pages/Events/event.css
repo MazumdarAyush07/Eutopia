@@ -131,6 +131,10 @@
   margin-bottom: 10px;
 }
 
+.register {
+  height: 50px;
+}
+
 .btn {
   position: block;
   background-color: #7905FF; /* purple */
