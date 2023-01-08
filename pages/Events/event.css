@@ -87,9 +87,10 @@
   position: relative;
   width: 200px;
   height: 250px;
-  margin-left: 0px;
+  margin-left: 25px;
   padding: 0,0,0,0;
   z-index: 2;
+  border-radius: 0.2rem;
 }
 
 
@@ -162,7 +163,7 @@
   padding-top: 5px;
   padding-bottom: 5px;
   width: 250px;
-  min-height: 210px;
+  min-height: 220px;
   height: auto;
 }
 /* .grid-container {
@@ -173,7 +174,7 @@
 } */
 
 .main-div {
-  padding-top: 12vh;
+  padding-top: 20vh;
   padding-left: 3vh;
   padding-right: 3vh;
   display: grid;

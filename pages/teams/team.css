@@ -20,9 +20,10 @@ body {
 
 .text
 {
-  font-family: 'HarryPotter', sans-serif;
+  font-family: 'Windlass','sans-serif';
   color:#ffffff;
-  font-size: 30px; 
+  font-size: 20px; 
+  padding-top: 3vh;
 }
 
 .team-section {
