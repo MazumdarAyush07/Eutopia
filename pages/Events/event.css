@@ -75,8 +75,8 @@
 }
 .flip-card-front .inner,
 .flip-card-back .inner {
-  width: 100%;
-
+  width: 104%;
+  background-color: #231949;
   position: absolute;
   top: 50%;
   transform: translateY(-50%) translateZ(60px) scale(0.94);
@@ -137,9 +137,9 @@
 
 .btn {
   position: block;
-  background-color: #7905FF; /* purple */
+  background-color: #f6f3ff; /* whitish */
   border: none;
-  color: white;
+  color: #3b3b3b;
   padding: 5px 10px;
   margin-left: auto;
   margin-top: auto;
@@ -150,6 +150,22 @@
   font-size: 16px;
   z-index: 3;
   border-radius: 0.4rem;
+  }
+
+  .btn:disabled {
+    pointer-events: none;
+  }
+  
+  .btn:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .btn:active {
+    box-shadow: none;
+    transform: translateY(0);
   }
 
 .container {
@@ -168,6 +184,14 @@
   width: 250px;
   min-height: 210px;
   height: auto;
+  font-family: Helvetica, sans-serif;
+  box-shadow:
+  0.7px 2.2px 13.8px rgba(0, 0, 0, 0.19),
+  1.7px 5.3px 33.3px rgba(0, 0, 0, 0.086),
+  3.3px 9.9px 62.6px rgba(0, 0, 0, 0.031),
+  5.8px 17.6px 111.7px rgba(0, 0, 0, 0.001),
+  10.9px 33px 208.9px rgba(0, 0, 0, -0.012),
+  26px 79px 500px rgba(0, 0, 0, -0.011);
 }
 /* .grid-container {
   display: grid;
@@ -184,7 +208,7 @@
   grid-template-columns: auto auto;
   row-gap: 25px;
   column-gap: 30px;
-  background-color: #142E99;
+  background-color: #1c0039;
   padding-bottom: 5vh;
 }
 @media screen and (max-width: 450px) {
