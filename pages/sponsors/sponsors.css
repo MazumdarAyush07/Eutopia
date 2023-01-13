@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+@font-face {
+  font-family: "HarryPotter";
+  src: url("../../CSS/HARRYP__.TTF");
+}
+body {
+  background-color: #221866;
+  overflow-y: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-family: "HarryPotter", sans-serif;
+  font-size: 65px;
+  color: #ffffff;
+  padding-top: 10vh;
+}
+
+.head {
+  padding-top: 10vh;
+}
+
+.text {
+  font-family: "HarryPotter", sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.team-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+  .team-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.card-section {
+  padding: 80px 30px;
+}
+
+.member-card {
+  height: 350px;
+  width: 280px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.156);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-content h3 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.member-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.member-links a {
+  padding: 10px;
+}
+
+.mem-img {
+  border-radius: 50%;
+}
+
+.mem-img img {
+  /* border-radius: 50%; */
+  height: 160px;
+  width: 160px;
+}
