@@ -42,7 +42,7 @@ body {
 }
 
 .card-section {
-  padding: 80px 30px;
+  padding: 40px 20px;
 }
 
 .member-card {
@@ -80,12 +80,14 @@ body {
   padding: 10px;
 }
 
-.mem-img {
-  border-radius: 50%;
-}
-
 .mem-img img {
   /* border-radius: 50%; */
-  height: 160px;
+  height: 300px;
+  width: auto;
+}
+
+.mem-img2 img {
+  border-radius: 10%;
+  height: auto;
   width: 160px;
 }
